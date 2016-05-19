@@ -1,0 +1,112 @@
+#grad {
+    background: #99aacc; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#ffffe6, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#ffffe6, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#ffffe6, #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#ffffe6, #ffffff); /* Standard syntax */
+}
+
+true
+/* A gradient background for the body */
+#grad {
+    background: #99aacc; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#00aadd, #00aa88); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#00aadd, #00aa88); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#00aadd, #00aa88); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#00aadd, #00aa88); /* Standard syntax */
+}
+
+
+
+
+
+/*Author: Janice Liu
+    files attached: hw3.css and hw3.html
+    makes a quiz with radio buttons to choose from
+    will show score at the end*/
+
+body {
+    background-color: gray;
+}
+
+div.overall {
+    text-align: center;
+    width: 100%;
+}
+
+div#Question {
+    min-height: 275px;
+    max-height: 400px;
+    min-width: 369px;
+    max-width: 600px;
+    width: 48%;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 5px;
+    display: inline-block; /*???*/
+    text-align: center;
+    background-color: aquamarine;
+    vertical-align: top;
+    color: chocolate;
+    font-size: xx-large;
+    font-family: monospace; 
+
+}
+
+div#radioButts {
+    min-height: 275px;
+    max-height: 400px;
+    min-width: 369px;
+    max-width: 600px;
+    width: 48%;
+    float: left;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 5px;
+    display: inline-block;
+    text-align: center;
+    background-color: cadetblue;
+    vertical-align: top;
+    color: antiquewhite;
+    font-size: xx-large;
+    font-family: monospace;
+
+}
+
+footer {
+    text-align: right;
+    background-color: lavender;
+    clear: both;
+    margin-left: 14px;
+    margin-right: 14px;
+    min-width: 369px;
+    /*clears the floats and goes back to regular stacking document layout; a collection of floating divs or paragraphs should always be followed by an element with the clear property*/
+}
+
+/*all headings*/
+h1, h2, h3 {
+    color: ivory;
+    text-align: center;
+    background-color: darkkhaki;
+    margin: 5px;
+    font-family: monospace;
+    font-size: 3.7em;
+    padding-bottom: 5px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+button {
+    color: ivory;
+    font-size: large;
+    border: ivory;
+    border-width: 4px;
+    background-color: burlywood;
+    margin: 5px;
+    font-family: monospace;
+    font-size: large;
+
+}
